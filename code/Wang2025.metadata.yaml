@@ -1,0 +1,154 @@
+_dataset:
+  class: Wang2025
+  code: Wang2025
+  doi: 10.1109/TNSRE.2025.3591254
+  interval:
+  - 0
+  - 3.99609375
+  n_subjects: 15
+  paradigm: imagery
+acquisition:
+  channel_types:
+    eeg: 62
+  filters: 0.1 Hz high-pass
+  hardware: g.USBamp (g.tec medical engineering, Austria), 62 channels
+  line_freq: 50.0
+  montage: 10-10
+  sampling_rate: 256.0
+  sensors:
+  - Fp1
+  - Fpz
+  - Fp2
+  - AF7
+  - AF3
+  - AF4
+  - AF8
+  - F7
+  - F5
+  - F3
+  - F1
+  - Fz
+  - F2
+  - F4
+  - F6
+  - F8
+  - FT7
+  - FC5
+  - FC3
+  - FC1
+  - FCz
+  - FC2
+  - FC4
+  - FC6
+  - FT8
+  - T7
+  - C5
+  - C3
+  - C1
+  - Cz
+  - C2
+  - C4
+  - C6
+  - T8
+  - TP7
+  - CP5
+  - CP3
+  - CP1
+  - CPz
+  - CP2
+  - CP4
+  - CP6
+  - TP8
+  - P7
+  - P5
+  - P3
+  - P1
+  - Pz
+  - P2
+  - P4
+  - P6
+  - P8
+  - PO7
+  - PO3
+  - POz
+  - PO4
+  - PO8
+  - O1
+  - Oz
+  - O2
+  - F9
+  - F10
+documentation:
+  country: CN
+  data_url: https://huggingface.co/datasets/Jiaheng-Wang/ZJU-MI-EEG
+  description: Four-class motor imagery EEG from 15 healthy subjects (left hand, right hand, tongue, both feet) recorded with
+    62 channels at 256 Hz over two days of calibration and online feedback sessions.
+  doi: 10.1109/TNSRE.2025.3591254
+  institution: Zhejiang University
+  investigators:
+  - Jiaheng Wang
+  - Lin Yao
+  - Yueming Wang
+  keywords:
+  - motor imagery
+  - BCI
+  - brain-computer interface
+  - EEG
+  - four-class
+  license: ODC-BY
+  publication_year: 2025
+  repository: Hugging Face
+experiment:
+  class_labels:
+  - left_hand
+  - right_hand
+  - tongue
+  - feet
+  events:
+    feet: 4
+    left_hand: 1
+    right_hand: 2
+    tongue: 3
+  feedback_type: visual
+  has_training_test_split: true
+  mode: online
+  n_classes: 4
+  paradigm: imagery
+  stimulus_type: visual
+  study_design: Cued four-class motor imagery (left hand, right hand, tongue, both feet) over two days, each with a 240-trial
+    calibration run and a 160-trial online feedback run.
+  synchronicity: cue-based
+  trial_duration: 4.0
+  trials_per_class:
+    feet: 200
+    left_hand: 200
+    right_hand: 200
+    tongue: 200
+file_format: MAT
+paradigm_specific:
+  detected_paradigm: motor_imagery
+  imagery_duration_s: 4.0
+  imagery_tasks:
+  - left_hand
+  - right_hand
+  - tongue
+  - feet
+participants:
+  age_mean: 24.0
+  age_std: 5.1
+  bci_experience: 10 BCI-naive; 5 without online BCI experience
+  gender:
+    female: 3
+    male: 12
+  health_status: healthy
+  n_subjects: 15
+  species: homo sapiens
+runs_per_session: 2
+sessions_per_subject: 2
+tags:
+  modality:
+  - Motor
+  pathology:
+  - healthy
+  type:
+  - Motor Imagery

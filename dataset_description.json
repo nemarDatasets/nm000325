@@ -1,0 +1,38 @@
+{
+    "Name": "Wang2025",
+    "BIDSVersion": "1.9.0",
+    "HEDVersion": "8.4.0",
+    "DatasetType": "derivative",
+    "License": "ODC-BY",
+    "Authors": [
+        "Jiaheng Wang",
+        "Lin Yao",
+        "Yueming Wang"
+    ],
+    "ReferencesAndLinks": [
+        "https://huggingface.co/datasets/Jiaheng-Wang/ZJU-MI-EEG"
+    ],
+    "Keywords": [
+        "motor imagery",
+        "BCI",
+        "brain-computer interface",
+        "EEG",
+        "four-class"
+    ],
+    "DatasetDOI": "doi:10.1109/TNSRE.2025.3591254",
+    "GeneratedBy": [
+        {
+            "CodeURL": "https://github.com/NeuroTechX/moabb",
+            "Name": "moabb",
+            "Description": "Mother of All BCI Benchmarks",
+            "Version": "1.8.0dev0"
+        }
+    ],
+    "SourceDatasets": [
+        {
+            "DOI": "10.1109/TNSRE.2025.3591254",
+            "URL": "https://huggingface.co/datasets/Jiaheng-Wang/ZJU-MI-EEG"
+        }
+    ],
+    "PublicationYear": 2025
+}
