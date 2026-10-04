@@ -1,0 +1,94 @@
+{
+  "version": "2.0",
+  "pipeline_stage": "validated",
+  "authors": {
+    "Jiaheng Wang": {
+      "orcid": "0009-0005-0815-0518",
+      "affiliations": [
+        {
+          "name": "Department of Neurobiology, Affiliated Mental Health Center and Hangzhou Seventh People&#x2019;s Hospital, Zhejiang University School of Medicine, Hangzhou, China"
+        }
+      ]
+    },
+    "Lin Yao": {
+      "orcid": "0000-0003-2065-7280",
+      "affiliations": [
+        {
+          "name": "Department of Neurobiology, Affiliated Mental Health Center and Hangzhou Seventh People&#x2019;s Hospital, Zhejiang University School of Medicine, Hangzhou, China"
+        }
+      ]
+    },
+    "Yueming Wang": {
+      "orcid": "0000-0001-7742-0722",
+      "affiliations": [
+        {
+          "name": "Nanhu Brain-Computer Interface Institute, Hangzhou, China"
+        }
+      ]
+    }
+  },
+  "related_identifiers": [
+    {
+      "identifier": "10.1109/TNSRE.2025.3591254",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000325",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000325",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.21105/joss.01896",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "10.1038/s41597-019-0104-8",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    }
+  ],
+  "title": "Wang2025",
+  "license": "ODC-BY",
+  "dataset_type": "derivative",
+  "resource_type_general": "Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "1.78 GB (61 files)"
+  ],
+  "formats": [
+    ".edf",
+    ".json",
+    ".tsv",
+    ".yaml"
+  ],
+  "description": "A four-class motor imagery EEG dataset (ZJU-MI-EEG / MI4) from 15 healthy participants performing cued imagery of left hand, right hand, tongue, and both feet movements. Data were recorded with 62 channels at 256 Hz across two sessions on separate days, each with a calibration run and an online visual-feedback run. The dataset supports brain-computer interface research and deep learning-based EEG decoding.",
+  "methods_description": "EEG was recorded with a g.USBamp amplifier (g.tec) using 62 electrodes in a 10-10 montage at 256 Hz, with a 0.1 Hz online high-pass filter and 50 Hz line frequency. Each of two days included a 240-trial calibration run and a 160-trial online feedback run of cued four-class motor imagery lasting 4 s per trial.",
+  "keywords": [
+    {
+      "term": "motor imagery"
+    },
+    {
+      "term": "brain-computer interface"
+    },
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "four-class classification"
+    },
+    {
+      "term": "online feedback"
+    }
+  ],
+  "source_hash": "155e7a9dd616d2cf162a7e855159588bd047b161f64da3c2d6bce1b86005122d"
+}
