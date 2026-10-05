@@ -1,5 +1,5 @@
 {
-    "Name": "Wang2025",
+    "Name": "Wang2025: Four-class motor imagery dataset (ZJU-MI-EEG / MI4)",
     "BIDSVersion": "1.9.0",
     "HEDVersion": "8.4.0",
     "DatasetType": "derivative",
@@ -34,5 +34,8 @@
             "URL": "https://huggingface.co/datasets/Jiaheng-Wang/ZJU-MI-EEG"
         }
     ],
-    "PublicationYear": 2025
+    "PublicationYear": 2025,
+    "EthicsApprovals": [
+        "See the primary publication cited in the README/ReferencesAndLinks for the ethics approval statement obtained by the original investigators; no new human-subject data were collected for this BIDS re-release."
+    ]
 }
