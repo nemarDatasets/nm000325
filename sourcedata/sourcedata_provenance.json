@@ -1,1 +1,375 @@
-../.git/annex/objects/xk/xZ/SHA256E-s10615--fb0bc0923a04c793b8e8b71fd1445a2b6a531518f4493e69978d9f696974b344.json/SHA256E-s10615--fb0bc0923a04c793b8e8b71fd1445a2b6a531518f4493e69978d9f696974b344.json
+{
+ "dataset": "nm000325",
+ "moabb_class": "Wang2025",
+ "moabb_version_used": "v1.7.1-11-g9c6b1cc",
+ "retrieved": "2026-10-05",
+ "retrieved_by": "moabb.datasets.Wang2025.data_path()",
+ "upstream_cache_root": "/voyager/ceph/groups/sdp190/bpinto/moabb-nemar/mne_data/Wang2025/MNE-wang2025-data/datasets/Jiaheng-Wang/ZJU-MI-EEG/resolve/main/MI4",
+ "license": "ODC-BY",
+ "doi": "10.1109/TNSRE.2025.3591254",
+ "naming": "upstream_filenames_restored",
+ "n_files": 60,
+ "total_bytes": 3809343840,
+ "files": [
+  {
+   "file": "sub-01/s1_calibration.mat",
+   "bytes": 76186824,
+   "sha256": "53c959c74fbf2d078dea0dc488bb894c6205b741d0b2014916e236f5e19e2b3f",
+   "subject": "1"
+  },
+  {
+   "file": "sub-01/s1_feedback.mat",
+   "bytes": 50791304,
+   "sha256": "50bd3694041046d9a8d538f3615f5e21beb8875e4a0dc5fce1b8790139fe5c3f",
+   "subject": "1"
+  },
+  {
+   "file": "sub-01/s2_calibration.mat",
+   "bytes": 76186824,
+   "sha256": "c949eb26d0256b06ca43eb88edfbdb8141a09f05b26ffc3a6d7d20a84d41c316",
+   "subject": "2"
+  },
+  {
+   "file": "sub-01/s2_feedback.mat",
+   "bytes": 50791304,
+   "sha256": "da39808c6b219d606230b0e4afa2a7c1c56ce727974c2aa8ea0cbf6a9304afaa",
+   "subject": "2"
+  },
+  {
+   "file": "sub-02/s1_calibration.mat",
+   "bytes": 76186824,
+   "sha256": "ab67a286510e3eb924a2738ee5d0a40c4989ca4b25f74f233528b99d8c22873a",
+   "subject": "1"
+  },
+  {
+   "file": "sub-02/s1_feedback.mat",
+   "bytes": 50791304,
+   "sha256": "347279ee625ae5f75ab14052266b9e9b360a3a7a3b671af0f486b929a97b4d26",
+   "subject": "1"
+  },
+  {
+   "file": "sub-02/s2_calibration.mat",
+   "bytes": 76186824,
+   "sha256": "8054a0b917b82238694b629f43397e7e86241fbe0a68ad0d382d5b7faa4e8b53",
+   "subject": "2"
+  },
+  {
+   "file": "sub-02/s2_feedback.mat",
+   "bytes": 50791304,
+   "sha256": "a8f20f1156f1c4e9a1ed529f58c7b06802157be9fc11ef955ba7f75ebf217ec5",
+   "subject": "2"
+  },
+  {
+   "file": "sub-03/s1_calibration.mat",
+   "bytes": 76186824,
+   "sha256": "10113d28de7ef036dc64f185b4d3c353c022ba3020821a6e0c6749011cb9ba06",
+   "subject": "1"
+  },
+  {
+   "file": "sub-03/s1_feedback.mat",
+   "bytes": 50791304,
+   "sha256": "99c5a4db59b6082c450f77fcdc0998bf149caec492014ba1e677bae0fcbdf81c",
+   "subject": "1"
+  },
+  {
+   "file": "sub-03/s2_calibration.mat",
+   "bytes": 76186824,
+   "sha256": "d11785b1df90c94e89ee43b3880ad4d84a28eb39dd1a8b7559212470dcd04ad7",
+   "subject": "2"
+  },
+  {
+   "file": "sub-03/s2_feedback.mat",
+   "bytes": 50791304,
+   "sha256": "74933b0a90617a6e9bd6925967f72e397d8367944b74bed73341f027622c10e9",
+   "subject": "2"
+  },
+  {
+   "file": "sub-04/s1_calibration.mat",
+   "bytes": 76186824,
+   "sha256": "a03cbad82e3de01db2a7abb6b51b39cdce8f70368715e8c03a2c8eb96413bce4",
+   "subject": "1"
+  },
+  {
+   "file": "sub-04/s1_feedback.mat",
+   "bytes": 50791304,
+   "sha256": "07c93b63a690efc144f1f27ba2ebf36079e10c0b2fe73caad116a638c3708c7a",
+   "subject": "1"
+  },
+  {
+   "file": "sub-04/s2_calibration.mat",
+   "bytes": 76186824,
+   "sha256": "2b4debd7651e532d3fc5451d78166758646fa944e227077c57b1d22d126bd2b8",
+   "subject": "2"
+  },
+  {
+   "file": "sub-04/s2_feedback.mat",
+   "bytes": 50791304,
+   "sha256": "d186aa79f202d1d26ec86c6745d294b858aae91f5dfd157c514139b6c44076c2",
+   "subject": "2"
+  },
+  {
+   "file": "sub-05/s1_calibration.mat",
+   "bytes": 76186824,
+   "sha256": "4a37360afb53e8871c76e4224662c0d65c227612e08e164fdcf97fc3577cccbc",
+   "subject": "1"
+  },
+  {
+   "file": "sub-05/s1_feedback.mat",
+   "bytes": 50791304,
+   "sha256": "4442f7021333dad9b13f7221870c01264912c5cf2e028d06dbae1a4317c718b5",
+   "subject": "1"
+  },
+  {
+   "file": "sub-05/s2_calibration.mat",
+   "bytes": 76186824,
+   "sha256": "3ff8c7cdd50cd39221a04e133873b27fefa2ca2f021971b8587ac1be383769d4",
+   "subject": "2"
+  },
+  {
+   "file": "sub-05/s2_feedback.mat",
+   "bytes": 50791304,
+   "sha256": "651c49c11c8bed37a2acb19a2100e0670d32a6038ea845e08f2dc4d5001be739",
+   "subject": "2"
+  },
+  {
+   "file": "sub-06/s1_calibration.mat",
+   "bytes": 76186824,
+   "sha256": "10a5ad9e9f048dde96fd1b31fc52ebba030898d3e7d3369ad078b3ece69a019b",
+   "subject": "1"
+  },
+  {
+   "file": "sub-06/s1_feedback.mat",
+   "bytes": 50791304,
+   "sha256": "dab26d1db8ce79552751352a983cc9e1f43cff10a63bd21a6fdb8e6bdcb8ab2f",
+   "subject": "1"
+  },
+  {
+   "file": "sub-06/s2_calibration.mat",
+   "bytes": 76186824,
+   "sha256": "06a5c38d074ea7857f020a821c567d720bc1474d569853fb0c18058ecd8c9347",
+   "subject": "2"
+  },
+  {
+   "file": "sub-06/s2_feedback.mat",
+   "bytes": 50791304,
+   "sha256": "4bb633cbc48a1631c3d207f93fb842c7015ccb06108737a331a484d2896de135",
+   "subject": "2"
+  },
+  {
+   "file": "sub-07/s1_calibration.mat",
+   "bytes": 76186824,
+   "sha256": "9c3b141a7e2ca70ad46b492a30382ff8fef75ecb278a6fc6fef2a09011e6be1e",
+   "subject": "1"
+  },
+  {
+   "file": "sub-07/s1_feedback.mat",
+   "bytes": 50791304,
+   "sha256": "ed9cc55fc3114e56eaf807949a1d5e1c832e3ae9a7c53a55f050ad6f5ef39912",
+   "subject": "1"
+  },
+  {
+   "file": "sub-07/s2_calibration.mat",
+   "bytes": 76186824,
+   "sha256": "824b2410a3ecaf269e99bf0aae271c0c790c71a5035462e5447752ca629b391d",
+   "subject": "2"
+  },
+  {
+   "file": "sub-07/s2_feedback.mat",
+   "bytes": 50791304,
+   "sha256": "b7b8868f66717a6fe24ec69efe74edd6f091378cd239bc79c260063da1a5e4d8",
+   "subject": "2"
+  },
+  {
+   "file": "sub-08/s1_calibration.mat",
+   "bytes": 76186824,
+   "sha256": "7c75aa359ce691e72a13723b9f3d6c30c79d885d72e2e0be4e6ecb664d9c2297",
+   "subject": "1"
+  },
+  {
+   "file": "sub-08/s1_feedback.mat",
+   "bytes": 50791304,
+   "sha256": "58a73691c944ac14933eb4b40a5fe95b4f38c60a5923e6c5b1f003c8cfba3fbf",
+   "subject": "1"
+  },
+  {
+   "file": "sub-08/s2_calibration.mat",
+   "bytes": 76186824,
+   "sha256": "aa2490f0e3c477d1c6000a74d2506f99928c5a84ed6365697db9d151f243f1a3",
+   "subject": "2"
+  },
+  {
+   "file": "sub-08/s2_feedback.mat",
+   "bytes": 50791304,
+   "sha256": "4eae881ddbae3517dd9683038857badf02bc3200f1452c5530af187d93ca6c60",
+   "subject": "2"
+  },
+  {
+   "file": "sub-09/s1_calibration.mat",
+   "bytes": 76186824,
+   "sha256": "d602c2792a572cb72d04d2c74c131e1b7678d3b53739d8dee4974082ae3f4eda",
+   "subject": "1"
+  },
+  {
+   "file": "sub-09/s1_feedback.mat",
+   "bytes": 50791304,
+   "sha256": "06771fa41debe03a65a22737b7912b498cc7da88d42eb4ecc327ba888708ec26",
+   "subject": "1"
+  },
+  {
+   "file": "sub-09/s2_calibration.mat",
+   "bytes": 76186824,
+   "sha256": "4b0412b21ec770ab8a46636a3b533036113293dc40b43ba333d8deec6a5d01e5",
+   "subject": "2"
+  },
+  {
+   "file": "sub-09/s2_feedback.mat",
+   "bytes": 50791304,
+   "sha256": "f653efe991c865b90ed19f2266db2cbcbacea805375e5cced3671e3acc42deb2",
+   "subject": "2"
+  },
+  {
+   "file": "sub-10/s1_calibration.mat",
+   "bytes": 76186824,
+   "sha256": "a017dac5548c75359fc93e2a4282986c4c5964621e0450f7d0b6691bfc9e2b86",
+   "subject": "1"
+  },
+  {
+   "file": "sub-10/s1_feedback.mat",
+   "bytes": 50791304,
+   "sha256": "f4e3e63481362dfc6d169d30da8917f7ed1a9ef18ae11b983f488ae091af4992",
+   "subject": "1"
+  },
+  {
+   "file": "sub-10/s2_calibration.mat",
+   "bytes": 76186824,
+   "sha256": "5afe32565ada050e7c87a5ced0ae851ef2415eaec6b9c345e830e3a54c67449f",
+   "subject": "2"
+  },
+  {
+   "file": "sub-10/s2_feedback.mat",
+   "bytes": 50791304,
+   "sha256": "d6a0404abc1644fee9a4a6657e3d940b5ca72224122585d6750f3c2e0847c67f",
+   "subject": "2"
+  },
+  {
+   "file": "sub-11/s1_calibration.mat",
+   "bytes": 76186824,
+   "sha256": "44728eb3aeedd56ccc16a4c54b04d8d8841d68545c9d17eec3abc832eb0688d0",
+   "subject": "1"
+  },
+  {
+   "file": "sub-11/s1_feedback.mat",
+   "bytes": 50791304,
+   "sha256": "2b0b09e744cc226fc7e23569abeb011bd397a769d4e0ec71efc3666c729ee923",
+   "subject": "1"
+  },
+  {
+   "file": "sub-11/s2_calibration.mat",
+   "bytes": 76186824,
+   "sha256": "7eec08dbd446b6554ed734dc7e99a1bc98649390d0fcb5f531c3be3d75834254",
+   "subject": "2"
+  },
+  {
+   "file": "sub-11/s2_feedback.mat",
+   "bytes": 50791304,
+   "sha256": "c7b7df37e63279fbc98127933059dec8bb729a16d746b980a6bcdbfd6018a456",
+   "subject": "2"
+  },
+  {
+   "file": "sub-12/s1_calibration.mat",
+   "bytes": 76186824,
+   "sha256": "bfce076bb2addf2ca97709640cd8389497421543af71351c71e3f6f900593e7d",
+   "subject": "1"
+  },
+  {
+   "file": "sub-12/s1_feedback.mat",
+   "bytes": 50791304,
+   "sha256": "759ccd002b6bbbaaeb61a051496d6f46f15b48d200ca5a0db8d24cb4736c2807",
+   "subject": "1"
+  },
+  {
+   "file": "sub-12/s2_calibration.mat",
+   "bytes": 76186824,
+   "sha256": "b802c3dfa59b29c0a31fedfd104779387e2cb44c3464b820f027e53756967cf4",
+   "subject": "2"
+  },
+  {
+   "file": "sub-12/s2_feedback.mat",
+   "bytes": 50791304,
+   "sha256": "3d1a6b88c8ceea292ea761ab23e616f8c91514d9a3625409a0a6b359ebf0ad84",
+   "subject": "2"
+  },
+  {
+   "file": "sub-13/s1_calibration.mat",
+   "bytes": 76186824,
+   "sha256": "953998ebf1001fdc029967c0abdd5673657da0a616944c56fc68bc18c86eb8dd",
+   "subject": "1"
+  },
+  {
+   "file": "sub-13/s1_feedback.mat",
+   "bytes": 50791304,
+   "sha256": "d4aa603e59d98e6ed8a69f6d779633fa18c3fffd4449571f86e2f264c863eff8",
+   "subject": "1"
+  },
+  {
+   "file": "sub-13/s2_calibration.mat",
+   "bytes": 76186824,
+   "sha256": "b6627f9601040282dd9095de6b0ce572e404f2f26134eb2720a5d24f7bc1218a",
+   "subject": "2"
+  },
+  {
+   "file": "sub-13/s2_feedback.mat",
+   "bytes": 50791304,
+   "sha256": "d1f1f705d69c9f11bbabe983d1d62e258fcdd8df9590a58666baeb876ab7d151",
+   "subject": "2"
+  },
+  {
+   "file": "sub-14/s1_calibration.mat",
+   "bytes": 76186824,
+   "sha256": "45a595976bcfea25c5f7649ad19f5dabe051dcd007d7c204b5ed74890b97cfb5",
+   "subject": "1"
+  },
+  {
+   "file": "sub-14/s1_feedback.mat",
+   "bytes": 50791304,
+   "sha256": "e54d0cb6b5bb0e880ffa6883290b1966e3473b64944b4bb6ada139709ade764c",
+   "subject": "1"
+  },
+  {
+   "file": "sub-14/s2_calibration.mat",
+   "bytes": 76186824,
+   "sha256": "6784a19ada20a4fd1405343273d86214cc3d61fbd7e5e570fd882ca89f339afb",
+   "subject": "2"
+  },
+  {
+   "file": "sub-14/s2_feedback.mat",
+   "bytes": 50791304,
+   "sha256": "323816d682e81b2aa725f16c7fb04e56b0a242a3299e52bd6b2c33ed02971ffb",
+   "subject": "2"
+  },
+  {
+   "file": "sub-15/s1_calibration.mat",
+   "bytes": 76186824,
+   "sha256": "7be8d958bfbb247de206339752819f009c1ec95d931941989cfffbb9751a56b9",
+   "subject": "1"
+  },
+  {
+   "file": "sub-15/s1_feedback.mat",
+   "bytes": 50791304,
+   "sha256": "a852f5c2485e496562c258fe19f835d75ff01ef6dde23c6be44effb8231aaa16",
+   "subject": "1"
+  },
+  {
+   "file": "sub-15/s2_calibration.mat",
+   "bytes": 76186824,
+   "sha256": "3d70e2bb3a30659bd195d6f4b5cb55fa830341b4288570a298ed0f8654e847d9",
+   "subject": "2"
+  },
+  {
+   "file": "sub-15/s2_feedback.mat",
+   "bytes": 50791304,
+   "sha256": "872f9103174b0cf0895e18e6b1c577dec875c196fed46e49fd5d82125031be6f",
+   "subject": "2"
+  }
+ ]
+}
