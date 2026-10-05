@@ -1,6 +1,11 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
+  "title": "Wang2025: Four-class motor imagery dataset (ZJU-MI-EEG / MI4)",
+  "description": "A four-class motor imagery EEG dataset (ZJU-MI-EEG / MI4) recorded from 15 healthy participants performing cued imagery of left hand, right hand, tongue, and both feet movements. Data were acquired with 62 EEG channels at 256 Hz over two days, each including a calibration run and an online visual-feedback run. This BIDS re-release was generated via MOABB for brain-computer interface research and benchmarking.",
+  "methods_description": "Participants performed cued four-class motor imagery (left hand, right hand, tongue, both feet) over two sessions. Each session had a 240-trial calibration run and a 160-trial online feedback run, with 4 s trials and visual feedback. EEG was recorded with a g.USBamp amplifier (62 channels, 10-10 montage, 256 Hz, 0.1 Hz online high-pass, 50 Hz line frequency).",
+  "license": "ODC-BY",
+  "dataset_type": "derivative",
   "authors": {
     "Jiaheng Wang": {
       "orcid": "0009-0005-0815-0518",
@@ -27,6 +32,31 @@
       ]
     }
   },
+  "keywords": [
+    {
+      "term": "motor imagery"
+    },
+    {
+      "term": "Brain-Computer Interfaces",
+      "subject_scheme": "MeSH",
+      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
+    },
+    {
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+    },
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "four-class classification"
+    },
+    {
+      "term": "online feedback"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.1109/TNSRE.2025.3591254",
@@ -54,14 +84,11 @@
       "relation_type": "References"
     }
   ],
-  "title": "Wang2025",
-  "license": "ODC-BY",
-  "dataset_type": "derivative",
   "resource_type_general": "Dataset",
+  "resource_type_specific": "EEG Dataset",
   "modalities": [
     "eeg"
   ],
-  "resource_type_specific": "EEG Dataset",
   "sizes": [
     "1.78 GB (61 files)"
   ],
@@ -69,26 +96,8 @@
     ".edf",
     ".json",
     ".tsv",
-    ".yaml"
+    ".yaml",
+    ".yml"
   ],
-  "description": "A four-class motor imagery EEG dataset (ZJU-MI-EEG / MI4) from 15 healthy participants performing cued imagery of left hand, right hand, tongue, and both feet movements. Data were recorded with 62 channels at 256 Hz across two sessions on separate days, each with a calibration run and an online visual-feedback run. The dataset supports brain-computer interface research and deep learning-based EEG decoding.",
-  "methods_description": "EEG was recorded with a g.USBamp amplifier (g.tec) using 62 electrodes in a 10-10 montage at 256 Hz, with a 0.1 Hz online high-pass filter and 50 Hz line frequency. Each of two days included a 240-trial calibration run and a 160-trial online feedback run of cued four-class motor imagery lasting 4 s per trial.",
-  "keywords": [
-    {
-      "term": "motor imagery"
-    },
-    {
-      "term": "brain-computer interface"
-    },
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "four-class classification"
-    },
-    {
-      "term": "online feedback"
-    }
-  ],
-  "source_hash": "155e7a9dd616d2cf162a7e855159588bd047b161f64da3c2d6bce1b86005122d"
+  "source_hash": "a28976ea597a504e8a9d8a204bfb2f624ea5611ced88656565b73e5fee5fd377"
 }
