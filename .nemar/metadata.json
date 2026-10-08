@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Wang2025: Four-class motor imagery dataset (ZJU-MI-EEG / MI4)",
-  "description": "A four-class motor imagery EEG dataset (ZJU-MI-EEG / MI4) from 15 healthy participants performing cued imagery of left hand, right hand, tongue and both feet movements. Data were recorded with 62 channels at 256 Hz over two days, each including a calibration run and an online visual-feedback run. The dataset supports brain-computer interface research on deep learning-based EEG decoding and has been re-released in BIDS format via MOABB.",
-  "methods_description": "EEG was recorded with a g.USBamp amplifier (62 channels, 10-10 montage, 256 Hz, 0.1 Hz online high-pass). Each of two sessions included a 240-trial calibration run and a 160-trial online feedback run of cued four-class motor imagery (4 s trials, 200 trials per class in total) with visual cues and feedback.",
+  "description": "A four-class motor imagery EEG dataset (ZJU-MI-EEG / MI4) from 15 healthy participants performing cued imagery of left hand, right hand, tongue, and both feet movements. Data were recorded with 62 channels at 256 Hz across two days, each with a calibration run and an online visual-feedback run. This BIDS release was produced via MOABB from the published source data for brain-computer interface research.",
+  "methods_description": "EEG was recorded with a g.USBamp amplifier (62 channels, 10-10 montage, 256 Hz, 0.1 Hz online high-pass, 50 Hz line frequency). Each of two sessions comprised a 240-trial calibration run and a 160-trial online feedback run, with 4 s cued motor imagery trials and visual feedback.",
   "license": "ODC-BY",
   "dataset_type": "derivative",
   "authors": {
@@ -40,16 +40,20 @@
       "term": "motor imagery"
     },
     {
+      "term": "brain-computer interface"
+    },
+    {
+      "term": "Electroencephalography",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
+    },
+    {
       "term": "Brain-Computer Interfaces",
       "subject_scheme": "MeSH",
-      "scheme_uri": "https://id.nlm.nih.gov/mesh/",
       "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
     },
     {
       "term": "four-class classification"
-    },
-    {
-      "term": "online feedback"
     }
   ],
   "related_identifiers": [
