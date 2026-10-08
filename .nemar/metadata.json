@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Wang2025: Four-class motor imagery dataset (ZJU-MI-EEG / MI4)",
-  "description": "A four-class motor imagery EEG dataset (ZJU-MI-EEG / MI4) recorded from 15 healthy participants performing cued imagery of left hand, right hand, tongue, and both feet movements. Data were acquired with 62 EEG channels at 256 Hz over two days, each including a calibration run and an online visual-feedback run. This BIDS re-release was generated via MOABB for brain-computer interface research and benchmarking.",
-  "methods_description": "Participants performed cued four-class motor imagery (left hand, right hand, tongue, both feet) over two sessions. Each session had a 240-trial calibration run and a 160-trial online feedback run, with 4 s trials and visual feedback. EEG was recorded with a g.USBamp amplifier (62 channels, 10-10 montage, 256 Hz, 0.1 Hz online high-pass, 50 Hz line frequency).",
+  "description": "A four-class motor imagery EEG dataset (ZJU-MI-EEG / MI4) from 15 healthy participants performing cued imagery of left hand, right hand, tongue and both feet movements. Data were recorded with 62 channels at 256 Hz over two days, each including a calibration run and an online visual-feedback run. The dataset supports brain-computer interface research on deep learning-based EEG decoding and has been re-released in BIDS format via MOABB.",
+  "methods_description": "EEG was recorded with a g.USBamp amplifier (62 channels, 10-10 montage, 256 Hz, 0.1 Hz online high-pass). Each of two sessions included a 240-trial calibration run and a 160-trial online feedback run of cued four-class motor imagery (4 s trials, 200 trials per class in total) with visual cues and feedback.",
   "license": "ODC-BY",
   "dataset_type": "derivative",
   "authors": {
@@ -34,6 +34,9 @@
   },
   "keywords": [
     {
+      "term": "EEG"
+    },
+    {
       "term": "motor imagery"
     },
     {
@@ -41,14 +44,6 @@
       "subject_scheme": "MeSH",
       "scheme_uri": "https://id.nlm.nih.gov/mesh/",
       "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
-    },
-    {
-      "term": "Electroencephalography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
-    },
-    {
-      "term": "EEG"
     },
     {
       "term": "four-class classification"
@@ -90,14 +85,16 @@
     "eeg"
   ],
   "sizes": [
-    "1.78 GB (61 files)"
+    "5.32 GB (122 files)"
   ],
   "formats": [
     ".edf",
     ".json",
+    ".mat",
+    ".md",
     ".tsv",
     ".yaml",
     ".yml"
   ],
-  "source_hash": "a28976ea597a504e8a9d8a204bfb2f624ea5611ced88656565b73e5fee5fd377"
+  "source_hash": "8b9f51cd840c2be0201516b1f0f2f7432611dc778622bcc5578307fd1673f875"
 }
