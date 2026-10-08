@@ -1,41 +1,45 @@
 {
-    "Name": "Wang2025: Four-class motor imagery dataset (ZJU-MI-EEG / MI4)",
-    "BIDSVersion": "1.9.0",
-    "HEDVersion": "8.4.0",
-    "DatasetType": "derivative",
-    "License": "ODC-BY",
-    "Authors": [
-        "Jiaheng Wang",
-        "Lin Yao",
-        "Yueming Wang"
-    ],
-    "ReferencesAndLinks": [
-        "https://huggingface.co/datasets/Jiaheng-Wang/ZJU-MI-EEG"
-    ],
-    "Keywords": [
-        "motor imagery",
-        "BCI",
-        "brain-computer interface",
-        "EEG",
-        "four-class"
-    ],
-    "DatasetDOI": "doi:10.1109/TNSRE.2025.3591254",
-    "GeneratedBy": [
-        {
-            "CodeURL": "https://github.com/NeuroTechX/moabb",
-            "Name": "moabb",
-            "Description": "Mother of All BCI Benchmarks",
-            "Version": "1.8.0dev0"
-        }
-    ],
-    "SourceDatasets": [
-        {
-            "DOI": "10.1109/TNSRE.2025.3591254",
-            "URL": "https://huggingface.co/datasets/Jiaheng-Wang/ZJU-MI-EEG"
-        }
-    ],
-    "PublicationYear": 2025,
-    "EthicsApprovals": [
-        "See the primary publication cited in the README/ReferencesAndLinks for the ethics approval statement obtained by the original investigators; no new human-subject data were collected for this BIDS re-release."
-    ]
+  "Name": "Wang2025: Four-class motor imagery dataset (ZJU-MI-EEG / MI4)",
+  "BIDSVersion": "1.9.0",
+  "HEDVersion": "8.4.0",
+  "DatasetType": "derivative",
+  "License": "ODC-BY",
+  "Authors": [
+    "Jiaheng Wang",
+    "Lin Yao",
+    "Yueming Wang"
+  ],
+  "ReferencesAndLinks": [
+    "https://huggingface.co/datasets/Jiaheng-Wang/ZJU-MI-EEG"
+  ],
+  "Keywords": [
+    "motor imagery",
+    "BCI",
+    "brain-computer interface",
+    "EEG",
+    "four-class"
+  ],
+  "DatasetDOI": "10.82901/nemar.nm000325",
+  "GeneratedBy": [
+    {
+      "CodeURL": "https://github.com/NeuroTechX/moabb",
+      "Name": "moabb",
+      "Description": "Mother of All BCI Benchmarks",
+      "Version": "1.8.0dev0"
+    }
+  ],
+  "SourceDatasets": [
+    {
+      "DOI": "10.1109/TNSRE.2025.3591254",
+      "URL": "https://huggingface.co/datasets/Jiaheng-Wang/ZJU-MI-EEG"
+    },
+    {
+      "DOI": "doi:10.1109/TNSRE.2025.3591254"
+    }
+  ],
+  "PublicationYear": 2025,
+  "EthicsApprovals": [
+    "See the primary publication cited in the README/ReferencesAndLinks for the ethics approval statement obtained by the original investigators; no new human-subject data were collected for this BIDS re-release."
+  ],
+  "Version": "1.0.0"
 }
