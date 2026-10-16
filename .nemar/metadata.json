@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Wang2025: Four-class motor imagery dataset (ZJU-MI-EEG / MI4)",
-  "description": "A four-class motor imagery EEG dataset (ZJU-MI-EEG / MI4) from 15 healthy participants performing cued imagery of left hand, right hand, tongue, and both feet movements. Data were recorded with 62 channels at 256 Hz across two days, each with a calibration run and an online visual-feedback run. This BIDS release was produced via MOABB from the published source data for brain-computer interface research.",
-  "methods_description": "EEG was recorded with a g.USBamp amplifier (62 channels, 10-10 montage, 256 Hz, 0.1 Hz online high-pass, 50 Hz line frequency). Each of two sessions comprised a 240-trial calibration run and a 160-trial online feedback run, with 4 s cued motor imagery trials and visual feedback.",
+  "description": "A four-class motor imagery EEG dataset (ZJU-MI-EEG / MI4) from 15 healthy participants performing cued imagery of left hand, right hand, tongue, and both feet movements. EEG was recorded from 62 channels at 256 Hz across two sessions on separate days, each with a calibration run and an online visual-feedback run. The dataset supports brain-computer interface research and deep learning-based EEG decoding.",
+  "methods_description": "EEG was recorded with a g.USBamp amplifier (62 channels, 10-10 montage, 256 Hz, 0.1 Hz online high-pass, 50 Hz line frequency). Each of two sessions comprised a 240-trial calibration run and a 160-trial online feedback run with 4-second cued motor imagery trials and visual feedback.",
   "license": "ODC-BY",
   "dataset_type": "derivative",
   "authors": {
@@ -34,15 +34,6 @@
   },
   "keywords": [
     {
-      "term": "EEG"
-    },
-    {
-      "term": "motor imagery"
-    },
-    {
-      "term": "brain-computer interface"
-    },
-    {
       "term": "Electroencephalography",
       "subject_scheme": "MeSH",
       "value_uri": "http://id.nlm.nih.gov/mesh/D004569"
@@ -53,7 +44,13 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
     },
     {
+      "term": "motor imagery"
+    },
+    {
       "term": "four-class classification"
+    },
+    {
+      "term": "online feedback"
     }
   ],
   "related_identifiers": [
@@ -100,5 +97,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "8b9f51cd840c2be0201516b1f0f2f7432611dc778622bcc5578307fd1673f875"
+  "source_hash": "b022a3b7467d40773041f6f53d0b3093eb80d5985127e434c8e1aa1cfda17e59"
 }
