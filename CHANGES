@@ -1,0 +1,5 @@
+1.0.1 2026-10-16
+  - sourcedata_provenance.json: the "subject" field of the 60 entries recorded the session (day)
+    number taken from the file name sY_*.mat instead of the subject of the folder sub-XX/. It now
+    holds the subject (1-15) for every entry (56 entries changed). No file was added, changed or
+    removed; the BIDS tree is unchanged.
